@@ -58,14 +58,14 @@ like previouse one
 In productino mode, I want to send the following reqeusts:
 /me endpoint - get to get basalam user data with the following details: 
 method: get
-request path : https://mixinsalam.liara.run/basalam/client/me
+request path : https://fastapi-zouz4t.chbk.app/basalam/client/me
 parameters: no parameters needs
 header: "Authorization": "Bearer {token}"
 body: no body needs
 
 /my-basalam-products endpoint - get to get all basalam products data with the following details: 
 method: get
-request path : https://mixinsalam.liara.run/products/my-basalam-products/{vendor_id} which vendor_id is what we get by requesting form /me endpiont
+request path : https://fastapi-zouz4t.chbk.app/products/my-basalam-products/{vendor_id} which vendor_id is what we get by requesting form /me endpiont
 parameters: no params needs
 header: "Authorization": "Bearer {token}"
 body: no body needs
@@ -73,28 +73,28 @@ body: no body needs
 
 /mixin endpoint - get to get basalam user data with the following details: 
 method: get
-request path : https://mixinsalam.liara.run/mixin/{mixin_product_id} which product_id is hte product_id user clicks on and we handled that already
+request path : https://fastapi-zouz4t.chbk.app/mixin/{mixin_product_id} which product_id is hte product_id user clicks on and we handled that already
 parameters: "mixin_url"which we stored it when user enter the credentials it had
 header: "Authorization": "Bearer {token}"
 body: no body needs
 
 /basalam endpoint - get to get basalam user data with the following details: 
 method: get
-request path : https://mixinsalam.liara.run/basalam/{basalam_product_id}  which product_id is hte product_id user clicks on and we handled that already
+request path : https://fastapi-zouz4t.chbk.app/basalam/{basalam_product_id}  which product_id is hte product_id user clicks on and we handled that already
 parameters: no parameter needs
 header: "Authorization": "Bearer {token}"
 body: no body needs
 
 /update/mixin endpoint - get to get basalam user data with the following details: 
 method: put
-request path : https://mixinsalam.liara.run/update/mixin/{mixin_product_id} which product_id is the product_id user clicks on and we handled that already
+request path : https://fastapi-zouz4t.chbk.app/update/mixin/{mixin_product_id} which product_id is the product_id user clicks on and we handled that already
 parameters: "mixin_url"which we stored it when user enter the credentials it had
 header: "Authorization": "Bearer {token}"
 body: we already made the request body in the code when we want to send udate reqeust in development api calls. fo this request. create one same as that or use that. 
 
 /update/basalam endpoint - get to get basalam user data with the following details: 
 method: patch
-request path : https://mixinsalam.liara.run/update/basalam/{product_id} which product_id is the product_id user clicks on and we handled that already
+request path : https://fastapi-zouz4t.chbk.app/update/basalam/{product_id} which product_id is the product_id user clicks on and we handled that already
 parameters: "mixin_url"which we stored it when user enter the credentials it had
 header: "Authorization": "Bearer {token}"
 body: we already made the request body in the code when we want to send udate reqeust in development api calls. fo this request. create one same as that or use that.

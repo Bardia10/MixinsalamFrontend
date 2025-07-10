@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/products': {
-        target: 'https://mixinsalam.liara.run',
+        target: 'https://fastapi-zouz4t.chbk.app',
         changeOrigin: true,
         secure: false,
         configure: (proxy, _options) => {
@@ -38,7 +38,7 @@ export default defineConfig({
         },
       },
       '/api': {
-        target: 'https://mixinsalam.liara.run',
+        target: 'https://fastapi-zouz4t.chbk.app',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
         configure: (proxy, _options) => {
@@ -63,7 +63,7 @@ export default defineConfig({
         },
       },
       '/basalam': {
-        target: 'https://mixinsalam.liara.run',
+        target: 'https://fastapi-zouz4t.chbk.app',
         changeOrigin: true,
         configure: (proxy, _options) => {
           proxy.on('error', (err, _req, _res) => {
@@ -87,7 +87,7 @@ export default defineConfig({
         },
       },
       '/mixin': {
-        target: 'https://mixinsalam.liara.run',
+        target: 'https://fastapi-zouz4t.chbk.app',
         changeOrigin: true,
         configure: (proxy, _options) => {
           proxy.on('error', (err, _req, _res) => {
