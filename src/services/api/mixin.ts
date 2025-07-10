@@ -46,7 +46,7 @@ export const mixinApi = {
         token: credentials.access_token
       });
 
-      const response = await api.get('https://fastapi-zouz4t.chbk.app/products/my-mixin-products', {
+      const response = await api.get('https://fastapi-bardia.chbk.app/products/my-mixin-products', {
         headers: {
           Authorization: `Bearer ${credentials.access_token}`,
         },

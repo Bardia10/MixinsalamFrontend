@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const BASE_URL = 'https://fastapi-zouz4t.chbk.app'  // Update to the correct API server URL
+export const BASE_URL = 'https://fastapi-bardia.chbk.app'  // Update to the correct API server URL
 
 export const api = axios.create({
   baseURL: BASE_URL,
