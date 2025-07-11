@@ -217,7 +217,7 @@ function CredentialsPage() {
             onClick={() => setIsMixinModalOpen(true)}
             className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
           >
-            Connect Mixin
+            Connect to Mixin
           </button>
           
           <button
